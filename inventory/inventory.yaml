@@ -1,0 +1,11 @@
+---
+basic:
+  hosts:
+    vm1:
+      ansible_host: 34.240.95.132
+      luks_drives:
+        - device: /dev/nvme1n1
+          keyfile: /etc/luks/nvme1n1.keyfile
+          name: lalala
+          mountpoint: /mnt/luks1
+          fstype: ext4

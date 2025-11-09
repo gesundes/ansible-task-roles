@@ -1,0 +1,3 @@
+---
+# netrename_interface_name sets a new name for the default network interface
+netrename_interface_name: net0

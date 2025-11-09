@@ -1,0 +1,10 @@
+---
+- name: Apply a basic host configuration
+  hosts: basic
+  become: true
+  roles:
+    - luks
+    - cstate
+    - netrename
+    - cpufreq
+    - lscpu

@@ -1,0 +1,5 @@
+---
+- name: VM reboot
+  ansible.builtin.reboot:
+    reboot_timeout: 300
+  when: cstate_reboot_allowed is true
